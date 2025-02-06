@@ -6,8 +6,8 @@ class Example
 public:
     Example()
     {
-        a = 50;
-        b = 100;
+        a = 90;
+        b = 270;
      cout << "\nIm Constructor";
     }
     Example(int x, int y)
@@ -23,7 +23,7 @@ public:
 };
 int main()
 {
-Example Object(10, 20); 
+Example Object(18, 99); 
 Example Object2; 
 Object.Display();
 Object2.Display();
